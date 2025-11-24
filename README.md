@@ -30,6 +30,18 @@ It provides a RESTful API for managing products, categories, users, orders, and 
 
 ## ⚙️ Installation
 
+ClickCart/
+├── controllers/       # Route logic and handlers
+├── models/            # Mongoose schemas
+├── routes/            # API route definitions
+├── middleware/        # Auth, error handling, etc.
+├── utils/             # Helper functions
+├── config/            # DB and Stripe setup
+├── .env.example       # Environment variable template
+├── server.js          # Entry point
+└── README.md          # Project documentation
+
+
 ```bash
 git clone https://github.com/i9haow/ClickCart.git
 cd ClickCart
