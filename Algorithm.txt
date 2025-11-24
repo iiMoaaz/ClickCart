@@ -1,0 +1,2 @@
+1) Define Var
+2) Create method to manipulate that variable, this method accepts paramter
