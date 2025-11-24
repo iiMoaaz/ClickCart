@@ -1,27 +1,29 @@
 # 🛒 ClickCart – E-Commerce Backend API
 
-ClickCart is a modern E-Commerce backend project built with **Node.js**.  
-It provides a secure, scalable, and production-ready foundation for online shopping platforms.
+ClickCart is a modern, scalable, and secure backend for e-commerce platforms built with **Node.js**, **Express**, and **MongoDB**.  
+It provides a RESTful API for managing products, categories, users, orders, and payments.
 
 ---
 
 ## ✨ Features
 
-- **RESTful API** for smooth client-server communication  
-- **JWT Authentication** for secure user sessions  
-- **Stripe Integration** for real-time payment processing  
-- **Error Handling Middleware** for reliable and maintainable code  
-- **Modular Architecture** for easy expansion and future features
+- Modular RESTful API structure
+- JWT-based authentication and authorization
+- Stripe payment integration
+- Centralized error handling
+- Environment variable management with dotenv
+- Production-ready architecture
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Node.js** – Backend runtime  
-- **Express.js** – Web framework  
-- **MongoDB** – NoSQL database  
-- **Stripe** – Payment gateway  
-- **JWT** – Authentication  
+- **Node.js** – Backend runtime
+- **Express.js** – Web framework
+- **MongoDB** – NoSQL database
+- **Mongoose** – ODM for MongoDB
+- **JWT** – Authentication
+- **Stripe** – Payment gateway
 - **dotenv** – Environment variable management
 
 ---
