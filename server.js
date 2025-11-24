@@ -4,7 +4,8 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const compression = require('compression');
-
+const serverless = require('serverless-http');
+// Modules
 const ApiError = require('./utils/apiError');
 const globalError = require('./middlewares/errorMiddleware');
 const dbConnection = require('./config/database');
@@ -55,3 +56,5 @@ process.on('unhandledRejection', (err) => {
     process.exit(1);
   });
 });
+
+module.exports = serverless(app);
