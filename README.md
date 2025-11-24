@@ -1,5 +1,11 @@
 # 🛒 ClickCart
 
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-Backend-lightgrey?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen?logo=mongodb)
+![Stripe](https://img.shields.io/badge/Stripe-Payments-blue?logo=stripe)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ClickCart is a modern **E-Commerce backend project** built with **Node.js**.  
 It provides a secure, scalable, and production-ready foundation for online shopping platforms.
 
@@ -26,9 +32,7 @@ It provides a secure, scalable, and production-ready foundation for online shopp
 
 ## 📦 Installation
 
-Clone the repository and install dependencies:
-
 ```bash
-git clone https://github.com/your-username/clickcart.git
-cd clickcart
+git clone https://github.com/your-username/ClickCart.git
+cd ClickCart
 npm install
