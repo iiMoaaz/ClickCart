@@ -29,7 +29,7 @@ It provides a RESTful API for managing products, categories, users, orders, and 
 ---
 
 ## 🧪 Test
-🌐 Live API: https://clickcart.vercel.app/api/v1/categories
+🌐 Live API: [https://clickcart.vercel.app](https://clickcart-eight.vercel.app/)/api/v1/categories
 
 ## ⚙️ Installation
 
