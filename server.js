@@ -37,12 +37,10 @@ mountRoutes(app);
 
 // Welcome Message for '/'
 app.use('/', (req, res, next) => {
-  res
-    .status(200)
-    .json({
-      status: 'success',
-      message: `Hallo there, Pleased to meet you :)/nHere is resources u can visit`,
-    });
+  res.status(200).json({
+    status: 'success',
+    message: `Hallo there, Pleased to meet you :)`,
+  });
 });
 
 // Not Found Routes
