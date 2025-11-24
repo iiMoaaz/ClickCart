@@ -33,6 +33,6 @@ It provides a secure, scalable, and production-ready foundation for online shopp
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/ClickCart.git
+git clone https://github.com/iiMoaaz/ClickCart.git
 cd ClickCart
 npm install
